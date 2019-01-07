@@ -21,3 +21,15 @@ https://pytorch.org/cppdocs/frontend.html
 https://github.com/java-native-access/jna
 
 https://github.com/nativelibs4java/JNAerator/wiki 
+
+# build from source
+
+clone the official repo,
+
+python setup.py build
+
+then copy 
+
+pytorch/build/lib.linux-x86_64-3.7/torch/lib
+
+to lib
