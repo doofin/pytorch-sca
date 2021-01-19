@@ -1,10 +1,11 @@
 # pytorch-sca
 WIP!
 
-scala bindings for pytorch ,utilizing the cpp api 
+scala bindings for pytorch ,utilizing the pytorch cpp api.
 
-# how
-use swig to generate jni from .h files : http://www.swig.org/Doc1.3/Java.html
+# How
+
+use swig to generate jni from .h files : http://www.swig.org/Doc1.3/Java.html , then it will be similar with https://pytorch.org/tutorials/advanced/cpp_frontend.html and https://pytorch.org/tutorials/advanced/cpp_autograd.html
 
 
 # libtorch
