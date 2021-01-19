@@ -3,6 +3,18 @@ WIP!
 
 scala bindings for pytorch ,utilizing the cpp api 
 
+# how
+use swig to generate jni from .h files : http://www.swig.org/Doc1.3/Java.html
+
+
+# libtorch
+
+https://pytorch.org/get-started/locally/
+
+# attention
+
+-I/usr/lib/jvm/java-8-openjdk-amd64/include -I/usr/lib/jvm/java-8-openjdk-amd64/include/linux
+
 # other projects
 
 https://github.com/nazarblch/torch-scala
