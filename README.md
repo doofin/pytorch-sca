@@ -1,6 +1,15 @@
 # pytorch-sca
+WIP!
+
 scala bindings for pytorch ,utilizing the cpp api 
 
+# other projects
+
+https://github.com/nazarblch/torch-scala
+
+https://github.com/ctongfei/JTorch
+
+https://github.com/ctongfei/nexus/tree/master/torch
 
 # Run 
 gcc must be 8.2!
