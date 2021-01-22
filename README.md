@@ -1,28 +1,29 @@
 # pytorch-sca
-WIP!
-
-scala bindings for pytorch ,utilizing the pytorch cpp api.
+WIP of scala bindings for pytorch ,utilizing the pytorch cpp api.
 
 # How
+
+update: It seems that the most promissing method is to use javaCpp: https://github.com/wmeddie/javacpp-presets/commits/master/libtorch/src/main/java/org/bytedeco/libtorch/presets/libtorch.java
 
 use swig to generate jni from .h files : http://www.swig.org/Doc1.3/Java.html , then it will be similar with https://pytorch.org/tutorials/advanced/cpp_frontend.html and https://pytorch.org/tutorials/advanced/cpp_autograd.html
 
 
-# libtorch
+# download,docs
 
-https://pytorch.org/get-started/locally/
+docs : https://pytorch.org/cppdocs/
 
-# attention
+download : https://pytorch.org/get-started/locally/
 
--I/usr/lib/jvm/java-8-openjdk-amd64/include -I/usr/lib/jvm/java-8-openjdk-amd64/include/linux
+javacpp : https://github.com/bytedeco/javacpp-presets/wiki
+# other projects & progress
 
-# other projects
+use javaCpp :  https://github.com/bytedeco/javacpp-presets/issues/623
 
-https://github.com/nazarblch/torch-scala
+use javaCpp,but with custom pre-process :  https://github.com/nazarblch/torch-scala
 
-https://github.com/ctongfei/JTorch
+based on swig : https://github.com/ctongfei/JTorch
 
-https://github.com/ctongfei/nexus/tree/master/torch
+also based on swig,newer : https://github.com/ctongfei/nexus/tree/master/torch
 
 # Run 
 gcc must be 8.2!
