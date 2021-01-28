@@ -1,6 +1,7 @@
 # pytorch-sca
 WIP of scala bindings for pytorch ,utilizing the pytorch cpp api.
 
+chat here : https://gitter.im/torchScala/community
 # How
 
 update: It seems that the most promissing method is to use javaCpp: https://github.com/wmeddie/javacpp-presets/commits/master/libtorch/src/main/java/org/bytedeco/libtorch/presets/libtorch.java
