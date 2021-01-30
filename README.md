@@ -35,8 +35,11 @@ gcc must be 8.2!
 
 files copy from commit 32777231730983aa38bb92624ca0b30fd75fb521,SO are built on my machine : linux x64
 
-# c++ api
-https://pytorch.org/cppdocs/frontend.html
+# pytorch internals
+
+c++ api https://pytorch.org/cppdocs/frontend.html
+
+https://apaszke.github.io/torch-internals.html
 
 
 # Scala api (c++ api binding)
