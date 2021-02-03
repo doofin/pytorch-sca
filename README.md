@@ -9,6 +9,12 @@ update: It seems that the most promissing method is to use javaCpp: https://gith
 use swig to generate jni from .h files : http://www.swig.org/Doc1.3/Java.html , then it will be similar with https://pytorch.org/tutorials/advanced/cpp_frontend.html and https://pytorch.org/tutorials/advanced/cpp_autograd.html
 
 
+# auto diff papers
+
+https://github.com/breandan/kotlingrad#references
+
+Demystifying Differentiable Programming: Shift/Reset the Penultimate Backpropagator
+
 # download,docs
 
 docs : https://pytorch.org/cppdocs/
